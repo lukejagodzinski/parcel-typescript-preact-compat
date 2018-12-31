@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2016", "esnext.asynciterable"],
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    "baseUrl": ".",
+    "paths": {
+      "react": ["node_modules/preact-compat/"],
+      "react-dom": ["node_modules/preact-compat/"]
+    },
+    "allowSyntheticDefaultImports": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "parcel-typescript-preact-compat",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel serve src/index.html --out-dir dist --port 3000 --open",
+    "build": "parcel build src/index.html --detailed-report --experimental-scope-hoisting --out-dir dist"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "parcel-bundler": "^1.11.0",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "preact": "^8.4.2",
+    "preact-compat": "^3.18.4"
+  },
+  "alias": {
+    "react": "preact-compat",
+    "react-dom": "preact-compat"
+  }
+}
